@@ -1,0 +1,27 @@
+{
+  "name": "ethereum-gas-fetcher",
+  "version": "0.1.1",
+  "description": "Fetches the current Ethereum gas price.",
+  "main": "ethereumGasFetcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octo44/ethereum-gas-fetcher.git"
+  },
+  "homepage": "https://github.com/octo44/ethereum-gas-fetcher",
+  "keywords": [
+    "ethereum",
+    "gas",
+    "web3"
+  ],
+  "author": "octo44",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "ethereum-gas-fetcher": "^0.1.0",
+    "web3": "^1.5.2",
+    "yargs": "^17.2.1"
+  }
+}
